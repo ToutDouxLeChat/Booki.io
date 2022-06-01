@@ -1,0 +1,798 @@
+﻿/*GEN*/
+
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrefiltre {
+    display: flex;
+    align-items: center;
+}
+.around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-end: 25px;
+}
+
+.betweenheb{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.betweenpop{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.gris{ 
+    color: #d8d8d8;
+}
+
+.bleu {
+    color: #0065fc;
+}
+
+.backgris {
+    background-color: #f2f2f2;
+}
+
+.backgrisrecherche {
+    background-color: #f2f2f2;
+}
+
+.backgris2 {
+    background-color: #f2f2f2;
+}
+
+.backgris1{
+    background-color: #f2f2f2;
+}
+
+.backbleu {
+    background-color: #0065fc;
+}
+.backbleu:hover {
+    background-color: #0142a3;
+}
+
+.backbleu1{
+    background-color: #DEEBFF;
+}
+
+.backwhite {
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 6px 1px rgb(209, 208, 208);
+    cursor: pointer;
+    width: 90%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid white;
+}
+
+.backwhite:hover{
+    color:#0065fc;
+}
+.backwhite1:hover{
+    color:#0065fc;
+}
+.backwhite3:hover{
+    color:#0065fc;
+}
+
+.backwhite1 {
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 6px 1px rgb(209, 208, 208);
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.backwhite3 {
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 6px 1px rgb(209, 208, 208);
+    cursor: pointer;
+    width: 25%;
+    height: 500px;
+    margin-block-end: 40px;
+    margin-block-start: 10px;
+}
+
+.backwhite4 {
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 6px 1px rgb(209, 208, 208);
+    cursor: pointer;
+    width: 100%;
+    height: 260px;
+    margin-block-end: 25px;
+}
+
+.backwhite5 {
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 6px 1px rgb(209, 208, 208);
+    cursor: pointer;
+    width: 100%;
+    height: 210px;
+    margin-block-end: 30px;
+}
+
+.paddinggen{
+    padding-left: 50px;
+}
+
+.paddinglogo{
+    padding-left: 50px;
+}
+
+/*NAV*/
+
+.sizelien{
+    width:20%
+}
+
+.sizelien1 {
+    width: 140px;
+    height: 93px;
+
+}
+.colorblue {
+    color: #0065fc;
+}
+
+.colorblack{
+    color: black;
+}
+
+.colorblack:hover{
+    color: #0065fc;
+}
+
+.nodecoration{
+    text-decoration: none;
+}
+
+.sizelien1:hover> .colorblack{
+    color: #0065fc;
+}
+.sizelien1:hover{
+    border-top: 0.5px solid #0065fc;
+    cursor: pointer;
+}
+
+.buttonnav{
+    cursor: pointer;
+}
+
+.fas{
+    display: flex;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/*HEADER*/
+
+.bordurerecherche {
+    width: 480px;
+}
+.paddingfiltre1{
+    padding-left: 50px;
+}
+.paddingrecherche {
+    padding-left: 10px;
+}
+.recherche {
+    height: 50px;
+    width:230px;
+    font-size:18px;
+    color: black;
+    font-weight: bold;
+    border-color: #f2f2f2;
+    border-style: double;
+
+}
+.icon {
+    height: 50px;
+    border-radius: 10px 0 0 10px ;
+    width: 50px;
+}
+
+.icon1 {
+    height: 40px;
+    border-radius:50%;
+    width: 40px;
+    border: 3px solid #DEEBFF;
+    margin: -1px -1px;
+}
+
+
+.buttoni{
+    display: none;
+}
+.buttonlogo{
+    height: 50px;
+    width: 100px;
+    color : white;
+    border-radius: 0 10px 10px 0;
+    border:none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:#2600ff;
+}
+
+.bordurefiltre {
+    width: 365px;
+}
+
+.bordure1 {
+    border: 0.5px solid #f2f2f2;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.bordure1:hover{
+    background-color:#DEEBFF; ;
+}
+
+
+.filtre{
+    height: 30px;
+    font-weight: bold;
+}
+
+.paddingfiltre10{
+    padding: 10px;
+}
+
+.paddingfiltre{
+    padding-left: 20px;
+}
+
+.emplacementfiltre{
+    display: flex;
+}
+
+.bordure2 {
+    display: flex;
+    align-items: center;
+}
+.bordureinfo {
+    border: 0.5px solid rgb(168, 167, 167);
+    border-radius: 20px 20px 20px 20px;
+    width: 22px;
+    height:22px;
+}
+
+.paddingfiltre11{
+    padding-left: 20px;
+}
+
+/*SECTION*/
+
+
+.hebergements {
+    width: 60%;
+    border-radius: 20px 20px 20px 20px;
+    display:block;
+    justify-content: space-around;
+}
+
+.images {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+#conteneur {
+    display: flex;
+    padding-left: 40px;
+    margin-block-end: 50px;
+}
+
+#conteneur1 {
+    display: flex;
+    padding-left: 40px;
+    margin-block-end: 35px;
+}
+
+.afficher{
+    margin-block-start: -10px;
+}
+.paddingimages {
+    padding-right: 40px;
+    width: 30%;
+}
+
+.paddingtext{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textheb{
+    margin-bottom: 15px;
+}
+
+.paddingtextheb{
+    padding-left: 40px;
+
+}
+
+.paddingtextact{
+    padding-left: 20px;
+}
+
+.paddingpopu{
+
+    padding-left: 20px;
+}
+.paddingtext1{
+    padding-left: 40px;
+    margin-bottom: 35px;
+}
+
+.paddingtext2{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.etoile1{
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.etoile{
+    margin-top: auto;
+}
+
+.paddingtext3{
+    padding-left: 10px;
+}
+
+.populaire {
+    width: 30%;
+    border-radius: 20px 20px 20px 20px;
+}
+.pop{
+    padding-left: 25px;
+}
+
+.poplogo{
+    margin-left: auto;
+    padding-right: 45px;
+}
+
+.act{
+    padding-left :50px;
+}
+
+.placementtext{
+    margin-block-start: -10px;
+}
+
+.placementtext0{
+    margin-block-start: -10px;
+}
+
+h6{
+    font-weight: normal;
+}
+
+.placementtext1{
+    margin-block-start: -10px;
+    margin-block-end: 10px;
+}
+
+
+.paddingimages1 {
+    padding-right: 55px;
+    margin-bottom: 30px;
+}
+
+.paddingimages2 {
+    padding-right: 20%;
+    margin-bottom: 50%;
+}
+
+.images1 {
+    border: 2px solid white;
+    border-radius: 20px 0px 0px 20px;
+    width: 35%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.paddingpop{
+    padding-left: 20px;
+}
+
+.imagepopu
+{
+    display: flex;
+    width: 100%;
+}
+
+.imagecolumn{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    width: 25%;
+}
+
+.imagecolumn1{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 25%;
+}
+
+
+
+
+.imagesact {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+}
+
+.imagesact1 {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 205px;
+    object-fit: cover;
+}
+
+.imagesact2 {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+#imagesactivity{
+    margin-block-end: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+/*FOOTER*/
+
+.paddingfooter{
+    padding-right: 10%;
+    padding-left: 40px;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    
+}
+
+@media screen and (max-width: 992px)
+{
+    .sizelien{
+        width: 30%;
+    }
+    .betweenheb{
+        flex-direction: column-reverse;
+    }
+
+    .poplogo{
+        padding-right: 80px;
+    }
+
+    .paddingimages1{
+        padding-right: 80px;
+        padding-left: 40px;
+    }
+
+    .populaire{
+        width: 100%;
+    }
+
+    .hebergements{
+        width: 100%;
+    }
+
+    .paddingfiltre{
+        padding-left: 10px;
+    }
+    .paddingpop{
+        padding-left:0px;
+    }
+
+    .paddinggen{
+        padding-left:30px;
+    }
+
+    .bordurerecherche{
+        width: 430px;
+    }
+
+    .paddinglogo{
+        padding-left: 30px ;
+    }
+
+    #imagesactivity{
+
+    padding: 0 30px;
+    }
+
+    .act{
+        padding-left: 30px;
+    }
+
+    #conteneur{
+        padding-left: 45px;
+    }
+
+    #conteneur1{
+        padding-left: 45px;
+    }
+    .paddingimages{
+        padding-right: 25px;
+    }
+
+    .paddingtext{
+        padding-left: 10px;
+    }
+
+    .paddingtextact{
+        padding-left: 10px;
+    }
+
+    .backgris{
+        background-color: white;
+    }
+}
+@media screen and (max-width: 768px)
+{
+
+    .backgris{
+        background-color: #f2f2f2;
+    }
+
+    .poplogo{
+        padding-right: 40px;
+    }
+
+    .bordurerecherche{
+        width: auto;
+    }
+
+    .sizelien{
+        width: 100%;
+    }
+
+    .between{
+        flex-direction: column;
+    }
+
+    .centrefiltre{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .betweenheb{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .populaire{
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .pop{
+        padding-left: 40px;
+    }
+
+    .backwhite1{
+        width: 100%;
+    }
+    
+    .paddingimages1{
+        padding-left: 40px;
+        padding-right: 45px;
+    }
+
+    .paddingtext1{
+        padding-left: 30px;
+        margin-top: -30px;
+    }
+
+    .backgris2{
+        background-color: white;
+    }
+
+    .hebergements{
+        height: auto;
+        width: 100%;
+    }
+
+    .images{
+        width: 100%;
+    }
+
+    #conteneur{
+        flex-direction: column;
+        margin-left: 40px;
+        padding-left:0px;
+        margin-right: 40px;
+    }
+
+    #conteneur1{
+        flex-direction: column;
+        padding-left:40px;
+        margin-top:-50px;
+        padding-right: 40px;
+    }
+
+    .backwhite{
+        width: 330%;
+        margin-bottom: 25px;
+    }
+
+    #imagesactivity{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 40px;
+        margin-block-end: 20px;
+    }
+
+    .backwhite3{
+        width: 100%;
+        margin-inline-start: 0px;
+        margin-block-start: 0px;
+        height: 210px;
+    }
+
+    .imagesact{
+        width: 100%;
+        height: 150px;
+    }
+
+    .imagesact1{
+        width: 100%;
+        height: 150px;
+    }
+
+    .imagesact2{
+        width: 100%;
+    }
+
+    .imagecolumn{
+        display: contents;
+    }
+    .imagecolumn1{
+        display: contents;
+    }
+
+    .backwhite4{
+        width: 100%;
+        margin-block-end: 0px;
+        margin-inline-end: 0px;
+        margin-bottom: 40px;
+        height: 210px;
+    }
+
+    .backwhite5{
+        width: 100%;
+        margin-inline-end: 0px;
+        margin-block-end: 0px;
+        margin-bottom: 40px;
+    }
+
+    #footer{
+        flex-direction: column;
+        padding-left: 50px;
+    }
+
+    .paddingpopu{
+        padding-left: 0px;
+    }
+
+    .paddingpop{
+        padding-left: 0px;
+    }
+
+    .paddinglogo{
+        padding-left: 50px;
+    }
+
+    .paddinggen{
+        padding-left: 30px;
+    }
+
+    .buttonlogo{
+        height: 50px;
+        width: 50px;
+        color : white;
+        border-radius: 10px 10px 10px 10px;
+        display: flex;
+        margin: 0px -5px;
+    }
+
+    .buttoni{
+
+        display: block;
+    }
+
+    .buttontext{
+        display: none;
+        height: 50px;
+        width: 100px;
+        color : white;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .sizelien1{
+        width: 50%;
+        height: 50px;
+        border-bottom: 3px solid #f2f2f2;
+
+    }
+
+    .sizelien1:hover{
+        border-bottom: 3px solid #0065fc;
+        border-top: none;
+    }
+    
+    .act{
+        padding-left :40px;
+    }
+
+    .paddingfooter{
+        padding-left: 0px;
+    }
+
+    .bold{
+        margin-bottom: 10px;
+    }
+    .paddingfiltre{
+        padding-left: 0px;
+    }
+
+    .paddingfiltre11{
+        padding-left: 10px;
+    }
+}
